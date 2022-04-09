@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HStack {
+            Image(systemName: "photo")
+            VStack(alignment: .leading) {
+                Text("Michael Bernhart")
+                Text("Evi Gruber")
+            }
+        }
     }
 }
 
